@@ -31,6 +31,11 @@
                     <views:SettingsPage/>
                 </Frame>
             </PivotItem>
+            <PivotItem x:Uid="PivotItem_OnePost">
+                <Frame>
+                    <views:OnePostPage/>
+                </Frame>
+            </PivotItem>
         </Pivot>
     </Grid>
 </Page>

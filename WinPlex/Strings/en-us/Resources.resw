@@ -170,16 +170,16 @@
     <comment>About this application title for Settings</comment>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">    
-    <value>Settings page placeholder text.  Your app description goes here.</value>
-    <comment>About this application description for Settings</comment>
+    <value>Winplex, a app to store your post it with your current location</value>
+    <comment>You can change the settings, create a post it (view in C:\Users\Quentin\AppData\Local\Packages\Supinfo.Winplex_p7f0hk5pvwc60\LocalState\post.json), view your location</comment>
   </data>
   <data name="Settings_PrivacyTermsLink.Content" xml:space="preserve">    
     <value>Privacy Statement</value>
     <comment>Privacy Statement link content for Settings</comment>
   </data>
   <data name="Settings_PrivacyTermsLink.NavigateUri" xml:space="preserve">  
-    <value>https://YourPrivacyUrlGoesHere/</value>
-    <comment>Here is your Privacy Statement url for Settings</comment>
+    <value>https://www.lemairepro.fr</value>
+    <comment>Quentin Lemaire - 214520</comment>
   </data>
   <data name="Settings_Personalization.Text" xml:space="preserve">   
     <value>Personalization</value>
@@ -196,5 +196,9 @@
   <data name="PivotItem_Settings.Header" xml:space="preserve">
     <value>Settings</value>
     <comment>Pivot item header for Settings</comment>
+  </data>
+  <data name="PivotItem_OnePost.Header" xml:space="preserve">
+    <value>OnePost</value>
+    <comment>Pivot item header for OnePost</comment>
   </data>
 </root>
