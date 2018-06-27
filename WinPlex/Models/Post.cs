@@ -6,18 +6,35 @@ using System.Threading.Tasks;
 
 namespace WinPlex.Models
 {
-    class Post
+    public class Post
     {
-        private DateTime dateTime;
-        private String content;
         private String name;
         private String img_url;
-        private int position;
+        private String lattitude;
+        private String longitude;
+        private String content;
+        private DateTime date;
 
-        public DateTime DateTime { get => dateTime; set => dateTime = value; }
-        public string Content { get => content; set => content = value; }
+        public Post(string name, string img_url, string lattitude, string longitude, string content, DateTime date)
+        {
+            this.name = name;
+            this.img_url = img_url;
+            this.lattitude = lattitude;
+            this.longitude = longitude;
+            this.content = content;
+            this.date = date;
+        }
+
+        public Post()
+        {
+
+        }
+
         public string Name { get => name; set => name = value; }
         public string Img_url { get => img_url; set => img_url = value; }
-        public int Position { get => position; set => position = value; }
+        public string Lattitude { get => lattitude; set => lattitude = value; }
+        public string Longitude { get => longitude; set => longitude = value; }
+        public string Content { get => content; set => content = value; }
+        public DateTime Date { get => date; set => date = value; }
     }
 }

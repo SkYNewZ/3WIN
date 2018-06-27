@@ -4,6 +4,8 @@ using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 
 using WinPlex.Services;
+using Windows.Storage;
+
 
 namespace WinPlex
 {
